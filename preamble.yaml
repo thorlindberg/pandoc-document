@@ -1,4 +1,4 @@
 ---
 header-includes: |
-    \usepackage{longtable}
+    \usepackage{csvsimple}
 ...
