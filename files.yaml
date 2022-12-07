@@ -1,2 +1,4 @@
 input-files:
-  - input/content.md
+  - input/contents/preface.md
+  - input/contents/introduction.md
+  - input/contents/background.md

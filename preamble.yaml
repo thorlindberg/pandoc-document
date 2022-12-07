@@ -1,4 +1,10 @@
 ---
 header-includes: |
     \usepackage{csvsimple}
+    \newcommand{\voc}[1]{\input{input/vocabulary/#1.md}}
+    \newcommand{\csv}[1]{\csvautotabular[separator=semicolon]{input/data/#1.csv}}
+    \newcommand{\uml}[1]{```plantuml\n\input{input/diagrams/#1.wsd}\n```}
+    \newcommand{\png}[1]{\includegraphics{./input/images/#1.png}}
+    \newcommand{\jpg}[1]{\includegraphics{./input/images/#1.jpg}}
+    \newcommand{\pdf}[1]{\includegraphics{./input/documents/#1.pdf}}
 ...
